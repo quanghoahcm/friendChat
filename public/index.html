@@ -1,0 +1,117 @@
+<!doctype html>
+<!--
+  Copyright 2017 Google Inc. All rights reserved.
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+      https://www.apache.org/licenses/LICENSE-2.0
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Learn how to use the Firebase platform on the Web">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Friendly Chat</title>
+  <!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="no">
+  <!-- Web Application Manifest -->
+  <link rel="manifest" href="assets/manifest.json">
+  <!-- Add to homescreen for Chrome on Android -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="application-name" content="Friendly Chat">
+  <meta name="theme-color" content="#303F9F">
+  <!-- Add to homescreen for Safari on iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Friendly Chat">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#303F9F">
+  <!-- Tile icon for Win8 -->
+  <meta name="msapplication-TileColor" content="#3372DF">
+  <meta name="msapplication-navbutton-color" content="#303F9F">
+  <!-- Material Design Lite -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.orange-indigo.min.css">
+  <!-- App Styling -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Creepster:regular,bold|Julee:regular,bold|Crafty+Girls:regular,bold|Bonbon:regular,bold|Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+  <base href="/">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="styles.85c0efed89a0c8a9e13c.bundle.css" rel="stylesheet" />
+  <style>
+    app-root>
+    .background {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #2B303B
+    }
+    app-root>
+    
+    .background>.wrapper {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%)
+    }
+  
+    .logo {
+      width: 96px;
+      height: 96px;
+      line-height: 96px;
+      margin: 10px auto;
+      background: #3F51B5;
+      text-align: center;
+      border-radius: 2px;
+      box-shadow: 0 2px 14px 0 rgba(0, 0, 0, .22)
+    }
+  
+    .logo>span {
+      display: inline-block;
+      color: #fff;
+      font-size: 56px;
+      animation: rotate 1.5s infinite linear
+    }
+  
+    .info {
+      color: rgba(255, 255, 255, .4);
+      text-align: center
+    }
+  
+    @keyframes rotate {
+      0% {
+        transform: rotate(0deg)
+      }
+      100% {
+        transform: rotate(360deg)
+      }
+    }
+    </style>
+  </head>
+  <body>
+    <app-root> 
+        <div class="background"> 
+          <div class="wrapper">
+              <div class="logo">
+                <span>C</span>
+                <div class="info"> Friend Chat</div>  
+              </div>
+          </div>
+        </div>
+    </app-root>
+  <script type="text/javascript" src="inline.03c8f479e876ad794baf.bundle.js"></script>
+  <script type="text/javascript" src="polyfills.3af50c045dd35cedf967.bundle.js"></script>
+  <script type="text/javascript" src="vendor.d63bb6dde359e731d91a.bundle.js"></script>
+  <script type="text/javascript" src="main.a976c7a313c1147a3004.bundle.js"></script>
+</body>
+
+</html>
